@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soins Infirmiers - Le Monde du Nursing Professionnel</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0f2ff 0%, #ffffff 100%);
+            color: #1a1a1a;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 25px 40px;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: 700;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+        nav {
+            background-color: #005ea3;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            font-weight: 600;
+            font-size: 1.2em;
+            box-shadow: inset 0 -3px 5px rgba(255,255,255,0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #004080;
+        }
+        main {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 25px 50px 25px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #007acc;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #007acc;
+            padding-bottom: 10px;
+            font-size: 2em;
+        }
+        p, li {
+            font-size: 1.15em;
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+        .tool-card {
+            background: #f9fbff;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .tool-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+        }
+        .tool-card img {
+            max-width: 100%;
+            height: 180px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 1em;
+            font-weight: 600;
+            letter-spacing: 1px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        a.more-info {
+            color: #005ea3;
+            font-weight: 700;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.25s ease;
+        }
+        a.more-info:hover {
+            border-bottom: 2px solid #007acc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Soins Infirmiers - Le Monde du Nursing Professionnel
+</header>
+
+<nav>
+    <a href="#definition">Définition</a>
+    <a href="#outils">Outils</a>
+    <a href="#types">Types de Soins</a>
+    <a href="#plus">Pour en savoir plus</a>
+</nav>
+
+<main>
+    <section id="definition">
+        <h2>Définition du Soins Infirmiers</h2>
+        <p>
+            Les soins infirmiers constituent une discipline essentielle dans le domaine de la santé, visant à accompagner les patients dans le maintien, la restauration et la promotion de leur santé. Ils englobent une large gamme d'activités cliniques, éducatives et préventives réalisées par des professionnels qualifiés.
+        </p>
+        <p>
+            Le rôle des infirmiers et infirmières dépasse le simple acte technique : ils offrent un soutien psychologique, participent à la coordination des soins, et sont souvent les premiers interlocuteurs des patients et de leurs familles.
+        </p>
+        <p>
+            En résumé, les soins infirmiers assurent un lien vital entre le patient et le système de santé, garantissant une prise en charge globale et personnalisée.
+        </p>
+    </section>
+
+    <section id="outils">
+        <h2>Outils Utilisés en Soins Infirmiers</h2>
+        <p>
+            Les professionnels du nursing utilisent divers outils pour assurer des soins efficaces et sécurisés. Voici quelques-uns des équipements les plus courants :
+        </p>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <img src="https://images.unsplash.com/photo-1588776814546-ec2b40f7ee06?auto=format&fit=crop&w=600&q=80" alt="Stéthoscope" />
+                <h3>Stéthoscope</h3>
+                <p>Instrument indispensable pour ausculter les sons cardiaques et pulmonaires.</p>
+            </div>
+            <div class="tool-card">
+                <img src="https://images.unsplash.com/photo-1581093588401-48b8326c6c0a?auto=format&fit=crop&w=600&q=80" alt="Thermomètre" />
+                <h3>Thermomètre</h3>
+                <p>Permet de mesurer la température corporelle pour détecter fièvre ou hypothermie.</p>
+            </div>
+            <div class="tool-card">
+                <img src="https://images.unsplash.com/photo-1600964399737-268a553e2e8a?auto=format&fit=crop&w=600&q=80" alt="Pansement" />
+                <h3>Pansement</h3>
+                <p>Utilisé pour protéger les plaies et favoriser une bonne cicatrisation.</p>
+            </div>
+            <div class="tool-card">
+                <img src="https://images.unsplash.com/photo-1581092580494-2de82509b434?auto=format&fit=crop&w=600&q=80" alt="Seringue" />
+                <h3>Seringue</h3>
+                <p>Employée pour administrer des médicaments ou effectuer des prélèvements sanguins.</p>
+            </div>
+            <div class="tool-card">
+                <img src="https://images.unsplash.com/photo-1579154208055-d4b7f1b2e8a1?auto=format&fit=crop&w=600&q=80" alt="Oxymètre" />
+                <h3>Oxymètre</h3>
+                <p>Appareil pour mesurer le taux d'oxygène dans le sang et la fréquence cardiaque.</p>
+            </div>
+            <div class="tool-card">
+                <img src="https://images.unsplash.com/photo-1582719478147-3efde9e01a9d?auto=format&fit=crop&w=600&q=80" alt="Gants médicaux" />
+                <h3>Gants Médicaux</h3>
+                <p>Équipement essentiel pour assurer l'hygiène et la protection lors des soins.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="types">
+        <h2>Types de Soins Infirmiers</h2>
+        <p>
+            La profession infirmière couvre plusieurs types de soins, adaptés aux besoins spécifiques des patients et aux contextes cliniques :
+        </p>
+        <ul>
+            <li><strong>Soins généraux :</strong> hygiène, confort, aide à la mobilité, alimentation.</li>
+            <li><strong>Soins spécifiques :</strong> administration de médicaments, surveillance des constantes vitales, pansements spécialisés.</li>
+            <li><strong>Soins intensifs :</strong> prise en charge des patients critiques nécessitant une surveillance rapprochée.</li>
+            <li><strong>Soins palliatifs :</strong> accompagnement des patients en fin de vie avec une approche humaine et respectueuse.</li>
+            <li><strong>Soins à domicile :</strong> interventions effectuées chez le patient pour un suivi continu et personnalisé.</li>
+            <li><strong>Soins de rééducation :</strong> assistance pour la récupération fonctionnelle après une maladie ou un accident.</li>
+        </ul>
+    </section>
+
+    <section id="plus">
+        <h2>Pour en savoir plus</h2>
+        <p>
+            Vous souhaitez approfondir vos connaissances sur les soins infirmiers ? Voici un lien vers la page Wikipédia officielle, riche en informations fiables et détaillées :
+        </p>
+        <p>
+            <a href="https://fr.wikipedia.org/wiki/Soins_infirmiers" target="_blank" class="more-info">Soins infirmiers — Wikipédia</a>
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>Site créé par <strong>Ilyass</strong> (ilyass) &nbsp;|&nbsp; Présenté par <strong>Malak</strong> (Malak)</p>
+</footer>
+
+</body>
+</html>
